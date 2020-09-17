@@ -6,7 +6,8 @@
 
 jobs:
 - job:
-  pool: ci-agent-pool
+  pool: 
+    vmImage: "windows-latest"
   timeoutInMinutes: 600
   cancelTimeoutInMinutes: 30
   variables:
